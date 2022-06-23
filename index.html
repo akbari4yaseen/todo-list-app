@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yaseen Akbari">
+    <link rel="shortcut icon" href="images/to-do-list.svg">
+    <!-- Icon Scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>To Do List App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="task-input">
+            <img src="images/write.svg" alt="writing" width="36">
+            <input type="text" placeholder="Add a new task" required>
+        </div>
+        <div class="control">
+            <div class="filter">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="btn-clear">Clear All</button>
+        </div>
+        <ul class="task-box">
+        </ul>
+    </div>
+</body>
+</html>
